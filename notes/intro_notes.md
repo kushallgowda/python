@@ -70,3 +70,20 @@ Unpacking lists and tuple
 fruits = ["a","b","c"]
 x,y,z = fruits
 
+Output Variables
+print(x)
+print(x,y,z)  or print (x + y + z) //for numbers it will works as mathematical opertator
+
+Global Variables
+Varaibles that are created outside the function, and it can be used anywhere.
+Local Variable are defined in a specific block
+Normally when you create a variable inside a function, that variable is local to make it global you use the global keyword
+Eg:
+x = 3
+def myFunc():
+   global x;
+   x = 5
+myFunc()
+print(x) O/P = 5
+
+#Python Data Types
